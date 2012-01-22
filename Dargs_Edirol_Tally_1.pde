@@ -1,15 +1,15 @@
+// dargs edirol MIDI tally 
+//
+// This is a beta version of a project.
+// there might be more info @ www.dargs.com.au
+//
+// thanks to Timothy Willman's MIDI Library
 // http://timothytwillman.com/itp_blog/zf
-// using what i've renamed 'midi2' library
+//
 // compiled in Arduino 0019 (not 21 or 22 - reports 'Serial' ?)
 //
-// It's necessary to subclass Midi in order to handle receiving messages.  If
-//  you're only sending data, see MidiSendExample, which is a bit simpler.
+// Version 1. No menus, basic stuff.
 //
-// If you're both sending AND receiving you'll need to subclass like this,
-//  but only for receive functions.
-//
-// Swapped line 462~  shift out standby tallys after onairs, to fix my db9 mis-wire
-
 
 #include "Midi.h"
 
